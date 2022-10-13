@@ -1,0 +1,16 @@
+1A.
+Klas abstrakcyjnych używa się kiedy chcemy współdzielić część kodu pomiędzy powiązannymi ze sobą klasami.
+Interfejsy stosuje się kiedy chcemy tylko wydzielić pewną abstrakcję, która może być wykorzystana w wielu klasach,
+które nie są ze sobą powiązane struktura dziedziczenia. Interfejsy można stosować wszędzie, gdzie logika wymaga zastosowania
+różnych implementacji tego samego interfejsu.
+Klasy abstrakcyjne mogą być wygodniejsze kiedy mamy wyraźną hierarchię. Dodanie lub zmiana implementacji metody w klasie
+abstrakcyjnej sprawia, że wszystkie klasy dziedziczące mają dostęp do tej funkcjonalności, podczas gdy w przypadku użycia
+interfejsu trzeba byłoby zmieniać implementacje w poszczególnych klasach.
+
+1B.
+Główną różnicą jest to, że tablice maja zadeklaorwany rozmiar, którego nie można dynamicznie zmieniać. W przypadku chcęci
+dodania do tablicy dodatkowych elementów koneiczne jest utworzenie nowej, większej tablicy. W tablicach obiekty przechowywane są
+pod konkretnym indeksem.
+W przypadku list w momencie deklarowania nie musimy podawać rozmiaru, bo może być on dynamicznie zmieniany.
+Kolejną różnica jest sposób pracy z daną kolekcją, np w przypadku tablic pobiera się element podając jego indeks w nawiasach kwadratowych,
+a w przypadku list przez użycie metody get().
